@@ -32,7 +32,7 @@ Clone the repository to your local machine running
 Install the necessary dependencies by running the following command in the project directory:
 
 run:
-npm install
+`npm install`
 Note: This project was bootstrapped with Create React App but it has been downgraded to React version 17.0.2. If you encounter issues related to React version incompatibility, try deleting the node_modules directory and running npm install again. If the problem persists, make sure that the relevant parts in the package.json file have been modified to use React 17.0.2 and that the index.js file has been updated accordingly.
 see here for details - https://stackoverflow.com/questions/46566830/how-to-use-create-react-app-with-an-older-react-version
 
