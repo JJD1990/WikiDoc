@@ -1,9 +1,11 @@
-Description
+Document Wiki Project
+
+Description:
 This wiki app was built using React and Python to allow users to create and store plain text documents with multiple revisions. Each document is uniquely identified by a maximum 50 character title and has a list of historical revisions that can be viewed at any point in time. The app is a Single Page Application (SPA) that includes a list of documents, document details with the latest revision formatted in markdown, and a list of revisions. Users can choose a revision and view the document at that time, or post a new revision of the document.
 
 ---
 
-Dependencies
+Dependencies:
 The following dependencies are required to run the app:
 
 @popperjs/core: version 2.11.6
@@ -23,7 +25,7 @@ web-vitals: version 2.1.4
 
 ---
 
-Installation
+Installation:
 Clone the repository to your local machine running
 `git clone https://github.com/JJD1990/WikiDoc`
 
@@ -53,12 +55,12 @@ https://www.youtube.com/watch?v=7LNl2JlZKHA
 
 ---
 
-Issues faced
+Issues faced:
 During the development of this project, several issues were faced, including implementing the API calls to the Python backend, making the app a single page application, and downgrading React to a more stable version from 18 to 17.0.2. Additionally, setting up the post request to edit information on the backend and fetching the data in a way that would render on the show page and in the edit form proved to be challenging. Finally, implementing the tests also presented its own set of difficulties. Despite these challenges, the project was completed successfully, and the end result is a fully functional wiki-style application.
 
 ---
 
-Scope for Improvments
+Scope for Improvments:
 Obciously implementing the api calls properly to allow page content to be accessible.
 Adding pagination
 Adding search functionality
@@ -66,7 +68,7 @@ Once a revision is created, making that the latest revision and pushing the last
 
 ---
 
-Resources
+Resources:
 https://stackoverflow.com/
 https://www.youtube.com/
 https://chat.openai.com/chat
