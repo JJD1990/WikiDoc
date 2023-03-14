@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Description
+This is a wiki app built with React and Python. It allows users to create pages, add revisions to those pages, and view a list of revisions for each page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dependencies
+The following dependencies are required to run the app:
 
-## Available Scripts
+@popperjs/core: version 2.11.6
+@testing-library/jest-dom: version 5.16.5
+@testing-library/react: version 12.0.4
+@testing-library/user-event: version 12.0.9
+axios: version 1.3.4
+bootstrap: version 5.2.3
+moment: version 2.29.4
+react: version 17.0.2
+react-dom: version 17.0.2
+react-markdown: version 8.0.5
+react-router-dom: version 6.9.0
+react-scripts: version 5.0.1
+sass: version 1.59.2
+web-vitals: version 2.1.4
 
-In the project directory, you can run:
+Installation
+Clone the repository to your local machine running
 
-### `npm start`
+Install the necessary dependencies by running the following command in the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+run:
+npm install
+Note: This project was bootstrapped with Create React App but it has been downgraded to React version 17.0.2. If you encounter issues related to React version incompatibility, try deleting the node_modules directory and running npm install again. If the problem persists, make sure that the relevant parts in the package.json file have been modified to use React 17.0.2 and that the index.js file has been updated accordingly.
+see here for details - https://stackoverflow.com/questions/46566830/how-to-use-create-react-app-with-an-older-react-version
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Start the development server by running the following command:
 
-### `npm test`
+run
+npm start
+This will start the server and open the application in your default browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the tests, use the following command:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm test
+This will launch the test runner in interactive watch mode.
